@@ -194,10 +194,10 @@
 3591506820;Image size: %s;Rozmiar obrazu: %s;
 2181017863;Custom;Niestandardowy;
 1151198715;Select color:;Wybierz kolor:;
-2880416754;Save preset;Zapisz ustawienie domyślne;
+2880416754;Save preset;Zapisz ustawienie predefiniowane;
 1251019015;Name:;Nazwa:;
 466340113;That preset already exists. Please choose a different name for this preset.;Ten schemat już istnieje. Wybierz inną nazwę dla tego schematu.;
-2170243135;Delete the preset "%s"?;Usunąć ustawienie domyślne "%s"?;
+2170243135;Delete the preset "%s"?;Usunąć ustawienie predefiniowane "%s"?;
 1721666890;Initializing Application;Inicjowanie aplikacji;
 2609406103;Loading Fonts;Wczytywanie czcionek;
 1627500565;Initializing Plugins;Inicjowanie wtyczek;
@@ -239,7 +239,7 @@
 4019339682;No updates are available. Your %s version is up to date.;Brak dostępnych aktualizacji. Twoja wersja %s jest aktualna.;
 3565179902;An unknown error occurred while checking for %s updates.;Wystąpił nieznany błąd podczas sprawdzania dostępności aktualizacji %s.;
 1408580451;An unknown error occurred while updating %s.;Wystąpił nieznany błąd podczas aktualizacji %s.;
-1987030760;About %s;O aplikacji %s;
+1987030760;About %s;O programie %s;
 3905028885;Version %s;Wersja %s;
 40672744;All rights reserved.;Wszelkie prawa zastrzeżone.;
 1374241700;This product is licensed.;Ten produkt jest licencjonowany.;
@@ -264,6 +264,21 @@
 14178227;± H:;± H:;
 4224845000;± S:;± S:;
 1719569133;± L:;± L:;
+1740619647;Brush tip profile;Brush tip profile;Tooltip
+3550515395;%s expression;%s expression;Tooltip
+3170941579;Opacity;Krycie;Tooltip
+1211954511;Feature;Funkcja;Tooltip
+2015866820;Flow;Przepływ;Tooltip
+4266510247;Rate;Współczynnik;Tooltip
+1983914030;Merge Opacity;Scal krycie;Tooltip
+847470083;Resaturation;Nasycenie;Tooltip
+2017453833;Bleed;Nasączenie;Tooltip
+3912999088;Smooth;Wygładź;Tooltip
+1976650953;Invert %s expression;Invert %s expression;Tooltip
+2210711187;Paper;Papier;Tooltip
+2568590507;Gradient;Gradient;Tooltip
+3520818798;Custom Shape;Niestandardowy kształt;Tooltip
+3266818337;Brushes;Pędzle;Tooltip
 2245287417;Replace current color set with with the default colors?;Zastąpić obecny zestaw kolorów domyślnymi kolorami?;
 3771309432;Replace current color set with the swatches from "%s"?;Zastąpić obecny zestaw kolorów próbkami z "%s"?;
 1887522262;Delete the selection "%s"?;Usunąć zaznaczenie "%s"?;
@@ -289,6 +304,11 @@
 271111202;Artweaver was unexpectedly quit. There are recovery information of all previous opened documents available. Do you want to restore them?;Artweaver został nieoczekiwanie zamknięty. Kopia zapasowa dysponuje informacjami o wszystkich poprzednio otwartych dokumentach. Czy chcesz je przywrócić?;
 2465181173;%d documents were successfully restored from the last recovery information;%d dokument został pomyślnie przywrócony z ostatniej kopii zapasowej.;
 1839489076;This cannot be undone. Continue?;Nie można tego cofnąć. Kontynuować?;
+1965083060;About %s...;O programie %s...;
+2758567827;Services;Usługi;macOS app menu
+1255040651;Hide Others;Ukryj pozostałe;macOS app menu
+1226127106;Show All;Pokaż wszystkie;macOS app menu
+1041381242;Quit %s;Zakończ %s;macOS app menu
 2723994931;The new canvas size is smaller than the current canvas size; some clipping will occur. Proceed?;Rozmiar nowego płótna jest mniejszy niż obecnego. Część obrazu może zostać przycięta. Kontynuować?;
 4176105785;Current Size: %s;Aktualny rozmiar: %s;
 3576577239;New Size: %s;Nowy rozmiar: %s;
@@ -320,7 +340,7 @@
 932116825;After the test period the following features are no longer available in %s:;Po okresie testowym następujące funkcje nie będą już dostępne w %s:;
 2260725225;The following features are no longer available in %s:;Następujące funkcje nie są już dostępne w %s:;
 3311084788;• Save documents;• Zapis dokumentów;
-3442432598;• Save presets;• Zapis ustawień domyślnych;
+3442432598;• Save presets;• Zapis ustawień predefiniowanych;
 1892652179;• Export documents;• Eksport dokumentów;
 2554322789;• Save events;• Zapis wydarzeń (eventów);
 1821589879;• Print documents;• Wydruk dokumentów;
@@ -432,7 +452,7 @@
 3352120558;ABR Brushes (*.Abr)|*.abr;Pędzle ABR (*.Abr)|*.abr;Preset import/export dialog filter
 4253492584;Papers (*.Pap)|*.pap;Papiery (*.Pap)|*.pap;Preset import/export dialog filter
 2895651332;Custom Shapes (*.Ash)|*.ash;Niestandardowe kształty (*.Ash)|*.ash;Preset import/export dialog filter
-1726700026;Could not complete your request because the preset file is not supported or does not contain any items.;Nie można zrealizować żądania, ponieważ plik ustawień domyślnych nie jest obsługiwany lub nie zawiera żadnych elementów.;
+1726700026;Could not complete your request because the preset file is not supported or does not contain any items.;Nie można zrealizować żądania, ponieważ plik ustawień predefiniowanych nie jest obsługiwany lub nie zawiera żadnych elementów.;
 1963150587;%d new paper items were successfully imported.;%d nowe elementy papieru zostały pomyślnie zaimportowane.;
 1365908643;%d new imagestamp items were successfully imported.;%d nowe elementy stempla graficznego zostały pomyślnie zaimportowane.;
 1502464800;%d new gradient items were successfully imported.;%d nowe elementy gradientu zostały pomyślnie zaimportowane.;
@@ -578,7 +598,7 @@
 3550634205;From Gradient;z gradientu;
 2834036794;Default;Domyślny;
 1935398847;Repeat Edge Pixels;Powtórz piksele krawędzi;
-433511515;Repeat Clone Source;Powtórz źródło klonowania;
+433511515;Repeat Clone Source;Powtórz klonowanie źródła;
 3387758840;Colors Only;Tylko kolory;
 2472858057;With Transparency;Z przezroczystością;
 1321123500;Color;Kolor;
@@ -594,7 +614,7 @@
 882423287;W: %d %s;Pion.: %d %s;
 4075857149;H: %d %s;Poz.: %d %s;
 1791262779;Size: %d;Rozmiar: %d;
-1505441320;Could not complete your request because the clone source and the current document are the same.;Nie można zrealizować żądania, ponieważ źródło klonu i bieżący dokument są takie same.;
+1505441320;Could not complete your request because the clone source and the current document are the same.;Nie można zrealizować żądania, ponieważ klon źródła i bieżący dokument są takie same.;
 3173526583;X: %d %s;X: %d %s;
 3278873047;Y: %d %s;Y: %d %s;
 534302077;Could not complete your request because the layer is locked.;Nie można zrealizować żądania, ponieważ warstwa jest zablokowana.;
@@ -693,9 +713,15 @@
 3510784816;Variant as Command...;Wariant jako polecenie...;
 1673116938;Set Default Variant...;Ustaw domyślny wariant...;
 3433710898;Restore Default Variant;Przywróć domyślny wariant;
-3272658056;Preset Manager...;Menadżer ustawień domyślnych...;
+3272658056;Preset Manager...;Menadżer ustawień predefiniowanych...;
+1706737803;Reset view rotation;Reset view rotation;
+1003317995;Actual pixels;Rzeczywista wielkość;
+2846664800;Switch colors;Zamień kolory;
 3003081840;Recent brushes:;Ostatnio używane pędzle:;
+301286352;Toggle brush palette;Toggle brush palette;
 4240238833;Mode:;Tryb:;
+1039830436;Line mode;Tryb linii;
+3758466553;Mirror mode;Tryb lustrzanego odbicia;
 1489315770;Mirror Off;Wyłącz lustrzane odbicie;
 4235547921;Vertical;Pionowe;
 3375796864;Horizontal;Poziome;
@@ -709,6 +735,15 @@
 2162321630;Feature:;Funkcja:;
 3990544506;Freehand Line;Linia odręczna;
 1742301645;Straight Line;Linia prosta;
+2778898502;Clone source;Powiel źródło;
+3035820401;New document;Nowy dokument;
+3232754583;Open document;Otwórz dokument;
+1171996531;Save document;Zapisz dokument;
+1396374561;Cut;Wytnij;
+3276200597;Copy;Kopiuj;
+2198948385;Paste;Wklej;
+3771549753;Undo;Cofnij;
+3650579925;Redo;Powtórz;
 3090491029;Capture Color Set;Przechwyć zestaw kolorów;
 1017884087;Tolerance:;Tolerancja:;
 1206451182;Capture all layers;Przechwyć wszystkie warstwy;
@@ -736,6 +771,8 @@
 2400157009;S;S;
 1838657016;V;V;
 602660530;Color Set;Zestaw kolorów;
+4102759130;Add color;Dodaj kolor;
+2834081699;Delete color;Usuń kolor;
 1756940971;Capture Color Set...;Przechwyć zestaw kolorów...;
 1253485874;Add Color;Dodaj kolor;
 558622445;Reset Color Set...;Resetuj zestaw kolorów...;
@@ -750,6 +787,9 @@
 3887096515;Color Set Palette Options;Opcje palety zestawu kolorów;
 1741916003;Swatch size;Wielkość próbki;
 3978154815;Colors;Kolory;
+3757296364;Switch colors;Zamień kolory;
+1856241997;Default colors;Domyślne kolory;
+1321020965;Clone color;Klonuj kolor;
 1243030534;R;R;
 33195649;B;B;
 530753397;G;G;
@@ -808,7 +848,11 @@
 1203278170;Name:;Nazwa:;
 1919416097;Invert;Odwróć;
 3325493088;Profile:;Profil:;
+3242262004;Soft;Miękki;
+4107887003;Hard;Twardy;
+350438152;Square;Square;
 371919447;Size:;Rozmiar:;
+1615434575;Use pen pressure;Uwzględnij nacisk pióra;
 4013965465;Opacity:;Krycie:;
 3696424090;Impasto;Impast;
 1158917171;Error;Błąd;
@@ -819,6 +863,7 @@
 2868600321;Progress:;Postęp:;
 2862324006;Feather;Wtapianie;
 3284290565;Radius:;Promień:;
+1873779725;Send feedback;Wyślij opinię;
 2684297256;Use lower case;Użyj małych liter;
 3985981761;Use upper case;Użyj dużych liter;
 455868405;File extension:;Rozszerzenie pliku:;
@@ -880,6 +925,12 @@
 2857363438;Position:;Pozycja:;
 1537085829;Opacity:;Krycie:;
 1258447455;Delete;Usuń;
+1247060390;Spiral gradient;Gradient spiralny;
+2459830543;Bi-linear gradient;Gradient dwuliniowy;
+3120465777;Linear gradient;Gradient liniowy;
+3031789233;Radial gradient;Gradient promienisty;
+1146201262;Square gradient;Gradient kwadratowy;
+3173019163;Conical gradient;Gradient stożkowy;
 2189715794;Opacity:;Krycie:;
 1086741345;Reverse;Odwrócone;
 655477669;Interactive;Interaktywne;
@@ -909,6 +960,8 @@
 1326724369;Print Size;Rozmiar w druku;
 3564725362;Center Document;Wyśrodkuj dokument;
 2190431474;History;Historia;
+3517832207;Undo;Cofnij;
+1274370242;Redo;Powtórz;
 3256047496;Step Forward;Krok do przodu;
 1969340335;Step Backward;Krok do tyłu;
 2590486381;Clear;Wyczyść;
@@ -922,6 +975,7 @@
 1978916556;Smoothing:;Wygładzanie:;
 2752667047;Impasto;Impast;
 2858618534;Surface Lighting;Oświetlenie powierzchni;
+4002356425;Light source;Źródło światła;
 3123433316;Amount:;Ilość:;
 2421281870;Exposure:;Ekspozycja:;
 1979683992;Shine:;Połysk:;
@@ -947,17 +1001,20 @@
 976949250;Units:;Jednostki:;
 2491231726;Default;Domyślne;
 4163671159;Color theme:;Motyw kolorystyczny:;
+3479744032;System default;Domyślny systemowy;
 1226363564;Light;Jasny;
 4072035685;Dark;Ciemny;
 3382213475;Show on-canvas information;Pokaż informacje na płótnie;
 3912527447;Show font preview;Pokaż podgląd czcionki;
 3998958051;Show filter full preview;Pokaż pełny podgląd filtra;
-2823184238;Use touch gestures;Użyj gestów dotykowych;
 1252706941;On-canvas information position:;Położenie informacji na płótnie:;
 177678333;Top left;Lewy górny;
 1666112218;Top right;Prawy górny;
 2088712451;Bottom left;Lewy dolny;
 2527016084;Bottom right;Prawy dolny;
+4209186484;Icon style:;Styl ikon:;
+2963867107;Filled;Wypełnione;
+4272854687;Colored;Kolorowe;
 994616959;Jitter:;Drganie:;
 1735582545;Expression:;Ekspresja:;
 2479599555;Drift w/ Continous Time Deposition;Drift w/ Ciągłość depozycji;
@@ -985,7 +1042,13 @@
 3640020909;Deselect;Odznacz;
 1669510807;Inverse;Odwróć;
 1970894172;Mode:;Tryb:;
+1940412266;Add to selection;Dodaj do zaznaczenia;
+3859018535;Intersect with selection;Przytnij z zaznaczenia;
+2016881800;New selection;Nowe zaznaczenie;
+195661489;Subtract from selection;Odejmij od zaznaczenia;
 2793699204;Shape:;Kształt:;
+685298325;Polygon;Wielokąt;
+885123543;Lasso;Lasso;
 1680382017;Feather:;Wtapianie:;
 1002689096;Anti-aliased;Wygładzanie;
 4280290987;Layer Group Properties;Właściwości grupy warstw;
@@ -1063,7 +1126,18 @@
 2746163877;Average;Średnie;
 546717479;Overlay;Nakładka;
 3860227402;Opacity:;Krycie:;
+2126875130;Bring forward;Przesuń do przodu;
+25433273;Send backward;Przesuń do tyłu;
+391212002;Layer properties;Właściwości warstwy;
+55376898;Merge down;Połącz niższe;
+1076827590;Duplicate layer;Powiel warstwę;
+1731610294;Delete layer;Usuń warstwę;
+1697874;New layer;Nowa warstwa;
+4137157054;New layer group;Nowa grupa warstw;
 418720094;Lock:;Zablokuj:;
+23980289;Lock position;Zablokuj pozycję;
+3024554816;Lock all;Zablokuj wszystko;
+3255945676;Lock transparency;Zablokuj przezroczystość;
 1373006438;Layer Properties...;Właściwości warstwy...;
 895121057;Layer from Background...;Warstwa z tła...;
 2152039561;Duplicate Layer...;Powiel warstwę...;
@@ -1095,6 +1169,10 @@
 3369321461;Transparency;Przezroczystość;
 2615623059;All;Wszystko;
 959315111;Mode:;Tryb:;
+3861449059;Add to selection;Dodaj do zaznaczenia;
+2505169717;Intersect with selection;Przytnij z zaznaczenia;
+4030732393;New selection;Nowe zaznaczenie;
+3688201482;Subtract from selection;Odejmij od zaznaczenia;
 1787532003;Sample Size:;Rozmiar próbki:;
 2671150644;Point sample;Próbka punktowa;
 3695940854;3 by 3 average;Średnio 3 na 3;
@@ -1139,9 +1217,9 @@
 531509717;All;Wszystkie;
 803463618;Pen Calibration...;Kalibracja pióra...;
 2499810250;Keyboard Shortcuts...;Skróty klawiszowe...;
-236582899;Presets;Ustawienia domyślne;
-2493689328;Preset Manager...;Menadżer ustawień domyślnych...;
-3407123042;Import Presets...;Importuj ustawienia domyślne...;
+236582899;Presets;Ustawienia predefiniowane;
+2493689328;Preset Manager...;Menadżer ustawień predefiniowanych...;
+3407123042;Import Presets...;Importuj ustawienia predefiniowane...;
 162569432;Preferences...;Preferencje...;
 2450630042;Document;Dokument;
 3211953046;Mode;Tryb;
@@ -1252,6 +1330,8 @@
 781590782;Group;Grupa;
 3286830375;Show transform controls;Pokaż elementy sterujące przekształcaniem;
 3986463865;Navigator;Nawigator;
+3987350858;Zoom out;Pomniejsz;
+4151159424;Zoom in;Powiększ;
 1404523657;Palette Options...;Opcje palety...;
 3932631171;Show Grid;Pokaż siatkę;
 2108879563;Show Perspective Grid;Pokaż siatkę perspektywy;
@@ -1275,6 +1355,8 @@
 3649832924;8 Bits/Channel;8 bitów na kanał;
 83552678;16 Bits/Channel;16 bitów na kanał;
 1793765040;pixels/inch;pikseli/cali;
+1884124588;Landscape;Krajobraz;
+3030062030;Portrait;Portret;
 3098930601;Background;Tło;
 1391756069;Contents:;Zawartość:;
 3782769851;Color;Kolor;
@@ -1375,7 +1457,7 @@
 1941648425;Back;Wstecz;
 1262604748;Next;Dalej;
 3797997229;Changes will take effect the next time you start Artweaver.;Zmiany zaczną obowiązywać po ponownym uruchomieniu Artweaver.;
-1899488605;Preset Manager;Menadżer ustawień domyślnych;
+1899488605;Preset Manager;Menadżer ustawień predefiniowanych;
 1720843073;Import...;Importuj...;
 239089156;Export...;Eksportuj...;
 3383235385;Brushes;Pędzle;
@@ -1384,7 +1466,11 @@
 3334930580;Captured;Przechwycenie;
 4098700549;Gradient;Gradient;
 4143371227;Custom Shape;Niestandardowy kształt;
-3806430532;Preset type:;Typ ustawień domyślnych:;
+3806430532;Preset type:;Typ ustawień predefiniowanych:;
+3267976080;Rename preset;Zmień nazwę ustawienia predefiniowanego;
+3605315916;Delete preset;Usuń ustawienie predefiniowane;
+1898186819;Move down;Przesuń w dół;
+3519438897;Move up;Przesuń w górę;
 2424542916;Rename Variant...;Zmień nazwę wariantu...;
 2488880212;Move Variant...;Przesuń wariant...;
 1252258200;Delete Variant;Usuń wariant;
@@ -1496,6 +1582,12 @@
 589300708;Selection Properties;Właściwości zaznaczenia;
 1745940040;Name:;Nazwa:;
 2876378811;Selections;Zaznaczenia;
+2636974368;Load selection;Wczytaj zaznaczenie;
+3589358692;Save selection;Zapisz zaznaczenie;
+2853902202;Selection properties;Właściwości zaznaczenia;
+2906375516;Duplicate selection;Powiel zaznaczenie;
+3668995690;Delete selection;Usuń zaznaczenie;
+533333651;New selection;Nowe zaznaczenie;
 2651949255;New Selection;Nowe zaznaczenie;
 2263470784;Duplicate Selection...;Powiel zaznaczenie...;
 2268191089;Delete Selection;Usuń zaznaczenie;
@@ -1504,7 +1596,13 @@
 2224565552;Selections Palette Options;Opcje palety zaznaczeń;
 3110844236;Thumbnail size;Rozmiar miniatury;
 12588607;Mode:;Tryb:;
+2284272397;Intersect with selection;Przytnij z zaznaczenia;
+2070443652;Subtract from selection;Odejmij od zaznaczenia;
+484769646;Add to selection;Dodaj do zaznaczenia;
+3272252429;New selection;Nowe zaznaczenie;
 3235590472;Shape:;Kształt:;
+3474182651;Rectangle;Prostokąt;
+3404242308;Ellipse;Elipsa;
 3789225835;Feather:;Wtapianie:;
 389393977;Anti-aliased;Wygładzanie;
 3162910064;Style:;Styl:;
@@ -1522,24 +1620,27 @@
 2672633211;Let us know what we can do to improve.;Daj nam znać, co możemy poprawić.;
 3717482684;Give feedback;Przekaż opinię;
 2752729568;Report a problem;Zgłoś problem;
-3490842256;Describe your problem or feedback;Opisz swój problem lub napisz opinię;
 1108721196;Your feedback should not contain any personal information (name, address, etc.). You acknowledge that any personal data collected here will be processed in accordance with our <a href="">Privacy Statement</a>.;Twoja opinia nie powinna zawierać żadnych danych osobowych (imienia, nazwiska, adresu itp.). Przyjmujesz do wiadomości, że wszelkie zebrane tutaj dane osobowe będą przetwarzane zgodnie z naszą <a href="">Polityką prywatności</a>.;
+3490842256;Describe your problem or feedback;Opisz swój problem lub napisz opinię;
 4058829535;Mode:;Tryb:;
+337977062;Operate on new layer;Pracuj na nowej warstwie;
+1179869636;Operate on current layer;Pracuj na bieżącej warstwie;
 4052379309;Shape:;Kształt:;
+3027351532;Ellipse;Elipsa;
+3580774993;Line;Linia;
+802763420;Custom shape;Niestandardowy kształt;
+2756457149;Rounded rectangle;Zaokrąglony prostokąt;
+2150334439;Polygon;Wielokąt;
+2102947387;Rectangle;Prostokąt;
 2838646137;Opacity:;Krycie:;
 433922000;Anti-aliased;Wygładzanie;
 1209693225;Fill;Wypełnienie;
 967868602;Radius:;Promień:;
 2790504788;Points:;Punkty:;
 927383234;Width:;Szerokość:;
-3580774993;Line;Linia;
-2102947387;Rectangle;Prostokąt;
-2756457149;Rounded rectangle;Zaokrąglony prostokąt;
-3027351532;Ellipse;Elipsa;
-2150334439;Polygon;Wielokąt;
-802763420;Custom shape;Niestandardowy kształt;
 40977669;Profile:;Profil:;
 1450020353;Captured:;Przechwyć:;
+3591631619;Reset brush size;Resetuj rozmiar pędzla;
 534912163;Size:;Rozmiar:;
 1643892226;Min Size:;Min. rozmiar:;
 3785926516;Expression:;Ekspresja:;
@@ -1557,6 +1658,10 @@
 3639381318;Profile:;Profil:;
 3057295225;Size:;Rozmiar:;
 1842982515;Opacity:;Krycie:;
+1296930546;Use pen pressure;Uwzględnij nacisk pióra;
+3401199862;Hard;Twardy;
+1071106804;Soft;Miękki;
+46924619;Square;Square;
 1937457089;Jitter:;Drganie:;
 4188443627;Mode:;Tryb:;
 3004825337;Smoothing:;Wygładzanie:;
@@ -1568,11 +1673,27 @@
 964010371;Text;Tekst;
 658101234;Reset Text;Resetuj tekst;
 2900438359;Sample;Przykład;
+2625352368;Size;Rozmiar;
+3253765107;Color;Kolor;
+943374111;Tracking;Tracking;
+656803352;Leading;Leading;
+2772145678;Align center;Wyśrodkuj;
+2865795444;Align left;Wyrównaj do lewej;
+1487906721;Align right;Wyrównaj do prawej;
+2182719592;Anti-aliased;Wygładzanie;
+771191766;All caps;Wersaliki;
+58930407;Kerning;Kerning;
+559245056;Underline;Podkreślenie;
+2170581574;Strikethrough;Przekreślenie;
 4190738202;Font:;Czcionka:;
 2166802950;Sample;Przykład;
 926108827;Size:;Rozmiar:;
 2192160437;Anti-aliased;Wygładzanie;
+1534463561;Align left;Wyrównaj do lewej;
+2442668302;Align center;Wyśrodkuj;
+2924606745;Align right;Wyrównaj do prawej;
 3703166412;Color:;Kolor:;
+162330693;Toggle text palette;Toggle text palette;
 3246218641;Apply;Zastosuj;
 4014315261;Regular;Regularna;
 1023548459;Italic;Kursywa;
@@ -1581,6 +1702,8 @@
 3796010826;Align Left;Wyrównaj do lewej;
 2597056749;Align Center;Wyśrodkuj;
 1866130679;Align Right;Wyrównaj do prawej;
+3193448839;Switch colors;Zamień kolory;
+2414344267;Default colors;Domyślne kolory;
 1937015264;Cursor:;Kursor:;
 3720406397;Standard;Standardowy;
 89926187;Single pixel;Pojedynczy piksel;
@@ -1618,6 +1741,8 @@
 1638236196;Rate:;Współczynnik:;
 8817204;Fringe:;Otoczka:;
 5238579;Do not show again;Nie pokazuj ponownie;
+3177021841;Zoom in;Powiększ;
+1378137545;Zoom out;Pomniejsz;
 3686670348;Actual Pixels;Aktualny rozmiar;
 2405912993;Fit on Screen;Dopasuj do ekranu;
 876574147;Print Size;Rozmiar w druku;
