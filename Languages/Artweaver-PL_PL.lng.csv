@@ -264,8 +264,8 @@
 14178227;± H:;± H:;
 4224845000;± S:;± S:;
 1719569133;± L:;± L:;
-1740619647;Brush tip profile;Brush tip profile;Tooltip
-3550515395;%s expression;%s expression;Tooltip
+1740619647;Brush tip profile;Profil końcówki pędzla;Tooltip
+3550515395;%s expression;Ekspresja %s;Tooltip
 3170941579;Opacity;Krycie;Tooltip
 1211954511;Feature;Funkcja;Tooltip
 2015866820;Flow;Przepływ;Tooltip
@@ -274,7 +274,7 @@
 847470083;Resaturation;Nasycenie;Tooltip
 2017453833;Bleed;Nasączenie;Tooltip
 3912999088;Smooth;Wygładź;Tooltip
-1976650953;Invert %s expression;Invert %s expression;Tooltip
+1976650953;Invert %s expression;Odwróć ekspresję %s;Tooltip
 2210711187;Paper;Papier;Tooltip
 2568590507;Gradient;Gradient;Tooltip
 3520818798;Custom Shape;Niestandardowy kształt;Tooltip
@@ -705,7 +705,7 @@
 2440082279;Enhanced Layer Blending;Ulepszone mieszanie warstw;
 1986156650;Size:;Rozmiar:;
 3732413005;Profile:;Profil:;
-627269806;Clumpiness:;Clumpiness:;
+627269806;Clumpiness:;Skupianie:;
 569964108;Brush;Pędzel;
 835024353;Capture Brush...;Przechwyć pędzel...;
 634684856;Capture Imagestamp...;Przechwyć stempel graficzny...;
@@ -714,11 +714,11 @@
 1673116938;Set Default Variant...;Ustaw domyślny wariant...;
 3433710898;Restore Default Variant;Przywróć domyślny wariant;
 3272658056;Preset Manager...;Menadżer ustawień predefiniowanych...;
-1706737803;Reset view rotation;Reset view rotation;
+1706737803;Reset view rotation;Zresetuj obrót widoku;
 1003317995;Actual pixels;Rzeczywista wielkość;
 2846664800;Switch colors;Zamień kolory;
 3003081840;Recent brushes:;Ostatnio używane pędzle:;
-301286352;Toggle brush palette;Toggle brush palette;
+301286352;Toggle brush palette;Przełącz na paletę pędzla;
 4240238833;Mode:;Tryb:;
 1039830436;Line mode;Tryb linii;
 3758466553;Mirror mode;Tryb lustrzanego odbicia;
@@ -850,7 +850,7 @@
 3325493088;Profile:;Profil:;
 3242262004;Soft;Miękki;
 4107887003;Hard;Twardy;
-350438152;Square;Square;
+350438152;Square;Kwadrat;
 371919447;Size:;Rozmiar:;
 1615434575;Use pen pressure;Uwzględnij nacisk pióra;
 4013965465;Opacity:;Krycie:;
@@ -918,7 +918,7 @@
 1887219312;Size:;Rozmiar:;
 3664058168;Bristles;Włosie;
 2340391925;Amount:;Ilość:;
-3287907027;Clumpiness:;Clumpiness:;
+3287907027;Clumpiness:;Skupianie:;
 2864725363;Edit Gradient;Edytuj gradient;
 3419572593;Segment;Segment;
 2441214546;Color:;Kolor:;
@@ -1017,7 +1017,7 @@
 4272854687;Colored;Kolorowe;
 994616959;Jitter:;Drganie:;
 1735582545;Expression:;Ekspresja:;
-2479599555;Drift w/ Continous Time Deposition;Drift w/ Ciągłość depozycji;
+2479599555;Drift w/ Continous Time Deposition;Dryf z ciągłym nanoszeniem;
 2516504032;Scale Jitter with Size;Skaluj drgania z rozmiarem;
 2988211288;Keyboard Shortcuts;Skróty klawiszowe;
 1074778392;Set:;Ustawienia:;
@@ -1653,15 +1653,15 @@
 3497118261;Sort descending;Sortuj malejąco;
 3504213509;Spacing:;Odstęp:;
 3330836167;Min. Spacing:;Min. odstęp:;
-2765453638;Continuous Time Deposition;Ciągłość depozycji;
-100301448;Continous Rate:;Continous Rate:;
+2765453638;Continuous Time Deposition;Ciągłe nanoszenie;
+100301448;Continous Rate:;Tempo nanoszenia;
 3639381318;Profile:;Profil:;
 3057295225;Size:;Rozmiar:;
 1842982515;Opacity:;Krycie:;
 1296930546;Use pen pressure;Uwzględnij nacisk pióra;
 3401199862;Hard;Twardy;
 1071106804;Soft;Miękki;
-46924619;Square;Square;
+46924619;Square;Kwadrat;
 1937457089;Jitter:;Drganie:;
 4188443627;Mode:;Tryb:;
 3004825337;Smoothing:;Wygładzanie:;
@@ -1675,8 +1675,8 @@
 2900438359;Sample;Przykład;
 2625352368;Size;Rozmiar;
 3253765107;Color;Kolor;
-943374111;Tracking;Tracking;
-656803352;Leading;Leading;
+943374111;Tracking;Odstęp między literami;
+656803352;Leading;Odstęp między wierszami;
 2772145678;Align center;Wyśrodkuj;
 2865795444;Align left;Wyrównaj do lewej;
 1487906721;Align right;Wyrównaj do prawej;
@@ -1693,7 +1693,7 @@
 2442668302;Align center;Wyśrodkuj;
 2924606745;Align right;Wyrównaj do prawej;
 3703166412;Color:;Kolor:;
-162330693;Toggle text palette;Toggle text palette;
+162330693;Toggle text palette;Przełącz na paletę tekstu;
 3246218641;Apply;Zastosuj;
 4014315261;Regular;Regularna;
 1023548459;Italic;Kursywa;
